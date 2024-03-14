@@ -1,4 +1,6 @@
-﻿string place = "start";
+﻿
+
+string place = "start";
 
 
 int money = 100;
@@ -13,22 +15,38 @@ while (place != "streets" && free)
         Console.WriteLine("What is your name?");
         string name = Console.ReadLine();
         Console.WriteLine("You enter the casino");
-        Console.WriteLine("The bouncer asks for your ID and you hand it over åäö");
+        Console.WriteLine("The bouncer asks for your ID and you hand it over");
         Console.WriteLine(name + ". What a stupid name");
+        Console.WriteLine("Hahah okay, head inside");
         Console.WriteLine("You see a blackjack table, roulette and lucky wheel");
         Console.WriteLine("Where do you want to go?");
-        Console.WriteLine("Blackjack, Roulette, Lucky wheel or the streets");
+        Console.WriteLine("Blackjack, Roulette, Lucky wheel or the street");
         string go = Console.ReadLine();
         go = go.ToLower();
 
         if (go == "blackjack")
         {
-            Console.WriteLine("You walk up to the blackjack table.");
-            Console.WriteLine("The dealer welcomes you and you sit down.");
+            money = Blackjack.PlayBlackjack(money);
         }
 
-        Console.ReadLine();
+        else if (go == "roulette")
+        {
+            money = Roulette.PlayRoulette(money);
+        }
 
+        else if (go == "Lucky wheel")
+        {
+            money = Wheel.PlayWheel(money);
+        }
+
+        else if (go == "Street")
+        {
+            money = Streets.GoTo(money);
+        }
+
+
+
+        Console.ReadLine();
     }
 
 
@@ -39,13 +57,3 @@ while (place != "streets" && free)
 
     Console.ReadKey();
 }
-
-
-
-
-
-
-
-
-
-
