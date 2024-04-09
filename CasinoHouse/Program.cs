@@ -42,6 +42,7 @@ while (place != "streets" && free)
         else if (go == "Street")
         {
             money = Streets.GoTo(money);
+            free = false;
         }
 
 

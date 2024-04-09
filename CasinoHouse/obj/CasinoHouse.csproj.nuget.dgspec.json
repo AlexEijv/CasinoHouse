@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj": {}
+    "c:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj": {
+    "c:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj",
+        "projectUniqueName": "c:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj",
         "projectName": "CasinoHouse",
-        "projectPath": "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj",
+        "projectPath": "c:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\CasinoHouse.csproj",
         "packagesPath": "C:\\Users\\alexander.eijvergar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\obj\\",
+        "outputPath": "c:\\Users\\alexander.eijvergar\\Documents\\Programering\\CasinoHouse\\CasinoHouse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
