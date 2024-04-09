@@ -24,6 +24,7 @@ while (place != "streets" && free)
         string go = Console.ReadLine();
         go = go.ToLower();
 
+
         if (go == "blackjack")
         {
             money = Blackjack.PlayBlackjack(money);
